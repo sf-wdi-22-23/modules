@@ -94,6 +94,15 @@ function greet() {
 
 ---
 
+##Break Time
+
+###15 minutes
+
+<img src="http://i.giphy.com/wsEX8uMrTRDoI.gif" style="width: 250px;">
+
+
+---
+
 ##Scope
 
 Understanding this concept is essential to a proper foundation of JavaScript. Scoping rules vary from language to language. JavaScript has two scopes: *global* & *local* scope.
@@ -145,12 +154,27 @@ Question: Consider the JS function `sort`, is it a firstclass function?
 
 ---
 
-##Optional Further Reading
+##Further Reading
 
-Here are some resources for more advanced JavaScript topics. Feel free to dig in tonight if you feel like stretching yourself, but we will come back to these later in the course. 
+We discuss these concepts at a later date. They are related, but more advanced. So have a solid understanding of these topics before you move on.
 
 * [The 'this' keyword](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/) - JavaScriptIsSexy Blog
 * [The Call Stack](https://www.youtube.com/watch?t=1310&v=8aGhZQkoFbQ) - A video with a great explanation and visual representation of the Call Stack
 * [Variable Hoisting](http://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/#hoisting) – Sitepoint article
 * [Closures](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work#answer-111200) – Stack Overflow post
 * [Recursion](http://www.codecademy.com/courses/javascript-lesson-205/0/1) — Code Academy lesson
+
+---
+
+##Starter Challenges
+
+1. Write a 'sayHello' function that logs 'Hello' to the console.
+  
+2. Rewrite 'sayHello' to accept a name as a parameter, and logs 'Hello' + the name to the console.
+
+3. Write a `multiply` function that finds the product of two numbers.
+
+  ```js
+  multiply(5, 7) => 35
+  ```
+3. Write a 'negative' function that takes an integer, and if that integer is positive, it turns it into a negative integer and returns that integer. 

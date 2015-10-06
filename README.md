@@ -2,6 +2,7 @@
 
 Look here for all things related to lesson notes, exercises, and solutions as well as the schedule.
 
+[JS and jQuery Screencasts](https://www.youtube.com/playlist?list=PLw1xVKFboueks5UMLogE01mdThRU577oa)
 
 <!-- ##Week 12 -->
 <!-- <table>
@@ -453,50 +454,50 @@ Look here for all things related to lesson notes, exercises, and solutions as we
 
 
 
-<!--##Week 2 - Working with Objects-->
-<!--<table>-->
-<!--  <tr>-->
-<!--    <th></th>-->
-<!--    <th>Monday</th>-->
-<!--    <th>Tuesday</th>-->
-<!--    <th>Wednesday</th>-->
-<!--    <th>Thursday</th>-->
-<!--    <th>Friday</th>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td>Drills</td>-->
-<!--    <td><a href="week-02/drills.md">Extend Kyrel</a> (Nathan)</td>-->
-<!--    <td><a href="week-02/drills.md">HTML Strings</a> (Justin)</td>-->
-<!--    <td><a href="week-02/drills.md">HTML Strings</a> (Justin)</td>-->
-<!--    <td><a href="week-02/drills.md">Frequency Counter</a> (Ilias)</td>-->
-<!--    <td>Assessment (Team)</td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td>Module1</td>-->
-<!--    <td><a href="week-02/day-01-arrays%2BIterators/dawn-arrayMethods">Array Methods</a> (Justin)</td>-->
-<!--    <td><a href="week-02/day-02-forms+AJAX/dawn-forms">Forms & JSON</a> (Nathan)</td>-->
-<!--    <td><a href="week-02/day-03-jquery-templating/html-templating/readme.md">HTML Templating</a> (Ilias)</td>-->
-<!--    <td><a href="week-02/day-04-Objects-and-OOP/dawn-objects/readme.md">Objects (Justin)</a></td>-->
-<!--    <td>Review (Team)</td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td>Module2</td>-->
-<!--    <td><a href="week-02/day-01-arrays%2BIterators/dusk-iteratorsLab">Implementing Iterators</a> (Ilias)</td>-->
-<!--    <td><a href="week-02/day-02-forms+AJAX/dusk-ajax">Intro AJAX</a> (Nathan)</td>-->
-<!--    <td><a href="week-02/day-03-jquery-templating/dusk-ajax-google-maps">AJAX & Google Maps</a> (Nathan)</td>-->
-<!--    <td><a href="week-02/day-04-Objects-and-OOP/dusk-object-drills/readme.md">OOP Drills (Justin)</a></td>-->
-<!--    <td><a href="week-02/day-05/weekend_project_refactor_spec.md">OOP Racing Game</a> (Nathan)</td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td>HW</td>-->
-<!--    <td><a href="week-02/day-02-forms%2BAJAX/dawn-forms/readme.md">HTML Forms</a> (Ilias)</td>-->
-<!--    <td><a href="week-02/day-03-jquery-templating/howTheInternetWorks.md">How the Internet Works</a> (Ilias)</td>-->
-<!--    <td><a href="week-02/day-04-Objects-and-OOP/dawn-objects">OOP Reading</a> (Justin)</td>-->
-<!--    <td><a href="https://github.com/airbnb/javascript/tree/master/es5">JS Style Guide</a> (Nathan)</td>-->
-<!--    <td></td>-->
+##Week 2 - Working with Objects
+<table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w02-working-with-objects/d1-drills" target="_blank">Extend Kyrel</a> (Brianna, Braus)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w02-working-with-objects/d2-drills">JS built in Objects: Math, Date, Array, String</a> (Ben, Matt)</td>
+    <td>HTML Strings (Matt, Alex)</td>
+    <td>Debugging (Matt, Brianna)</td>
+    <td>Assessment (Juliana, Brianna)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w02-working-with-objects/d1-dawn-arrays-objects" target="_blank">Array & Object Drills</a> (Brianna, Braus)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w02-working-with-objects/d2-dawn-OOP">OOP Constructors & Prototypes</a> (Alex, Braus)</td>
+    <td>Forms & JSON (Ben, Juliana)</td>
+    <td>Bootstrap Components (Braus, Alex)</a></td>
+    <td>Review (Matt, Brianna)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w02-working-with-objects/d1-dusk-functions">Functions, Callbacks, Closures, Loops</a> (Ben, Juliana)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/w02_d2_oop_refactor_lab/w02-working-with-objects/d2-oop-refactor-lab">OOP Tic-Tac-Toe Refactor Lab</a> (Brianna, Matt)</td>
+    <td>Intro to AJAX: Giphy Lab (Alex, Braus)</td>
+    <td>Geoquakes Lab (Juliana, Ben)</td>
+    <td>OOP Todo (Alex)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w02-working-with-objects/d1-homework" target="_blank">OOP Reading</a> (Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w02-working-with-objects/d2-homework">Forms and Zapier API Reading</a> (Juliana)</td>
+    <td>Google Maps API (Ben)</td>
+    <td><a href="https://github.com/airbnb/javascript/tree/master/es5">Airbnb JS Style Guide</a> (Alex)</td>
+    <td></td>
 
-<!--  </tr>-->
-<!--</table>-->
+  </tr>
+</table>
 
 
 ##Week 1 - Controlling the DOM
@@ -512,38 +513,35 @@ Look here for all things related to lesson notes, exercises, and solutions as we
   <tr>
     <td>Drills</td>
     <td>Course Overview (Ali / Team)</td>
-    <td><a href="https://github.com/sf-wdi-22-23/kyrel" target="_blank">Kyrel</a> basics (Travis / Brianna)</td>
-    <td>Kyrel loops</a> (Ben / Travis)</td>
-    <td>Kyrel advanced (Brianna / Travis)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/kyrel" target="_blank">Kyrel basics</a> basics (Travis / Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/kyrel/blob/master/challenges/day2.md" target="_blank">Kyrel Loops and Conditionals</a> (Ben / Travis)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/kyrel/blob/master/challenges/day3.md">Kyrel advanced</a> (Alex / Travis)</td>
     <td>Assessment (Team)</td>
   </tr>
   <tr>
     <td>Module 1</td>
     <td>Culture Setting (Team)</td>
     <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w01-controlling-the-dom/d2-dawn-html-css" target="_blank">HTML, CSS, Emmet</a> (Ben / Juliana)</td>
-    <td>JS Control Flow (Brianna / Juliana)</td>
-    <td>Intro jQuery & DOM (Juliana / Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w01-controlling-the-dom/d3-dawn-control-flow" target="_blank">JS Control Flow</a> (Brianna / Juliana)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w01-controlling-the-dom/d4-dawn-intro-jquery">Intro jQuery & DOM</a> (Juliana / Brianna)</td>
     <td>Review (Braus / Ben)</td>
   </tr>
   <tr>
     <td>Module 2</td>
     <td>Assessment (Team) <br><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w01-controlling-the-dom/d1-dusk-the-internet">What is the Internet?</a> (Juliana / Alex)</td>
-    <td>Bootstrap Grid & Navbar (Braus / Brianna)</td>
-    <td>Functions & Arguments (Alex / Braus)</td>
-    <td>DOM Context & Event Binding (Braus / Ben)</td>
-    <td>Weekend Lab (Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w01-controlling-the-dom/d2-dusk-bootstrap-css">Bootstrap Grid & Navbar</a> (Braus / Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w01-controlling-the-dom/d3_dusk_functions">Functions & Arguments</a> (Alex / Braus)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w01-controlling-the-dom/d4_dusk_dom_events">DOM Context & Event Binding</a> (Braus / Ben)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/tic-tac-toe" target="_blank">Weekend Lab</a> (Brianna)</td>
   </tr>
   <tr>
     <td>HW</td>
     <td><a href="https://github.com/sf-wdi-22-23/modules/tree/master/w01-controlling-the-dom/d1-homework" target="_blank">HTML, CSS</a></td>
     <td>
-      JS Primitives, <br>
-      Control Flow, <br>
-      <a href="https://github.com/sf-wdi-22-23/modules/blob/master/w01-controlling-the-dom/d2-homework/functions-overview.md">Review Functions Doc</a> for tomorrows Dusk lecture, start excercises, <br>
-      <a href="https://www.youtube.com/watch?v=DNN6G9EuPT0">Sublime Keyboard Shortcuts (screencast!)</a>
+      <a href="https://github.com/sf-wdi-22-23/modules/blob/master/w01-controlling-the-dom/d2-homework/README.md">Javascript readings and Sublime Keyboard Shortcuts</a>
     </td>
-    <td>jQuery (Ben)</td>
-    <td>jQuery for the DOM (Alex)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/blob/master/w01-controlling-the-dom/d3-homework/README.md">jQuery Reading</a></td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules/blob/master/w01-controlling-the-dom/d4-homework/README.md">jQuery for the DOM </a> & <a href="https://github.com/sf-wdi-22-23/events_lab">Events Lab (optional)</a></td>
     <td></td>
   </tr>
 </table>
