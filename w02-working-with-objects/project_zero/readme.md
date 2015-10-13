@@ -36,8 +36,13 @@ Something like this:
 
 ## Submit by Tuesday Morning 9:09am
 
-Push your project to a public repo, and share the link this Google Form: http://goo.gl/forms/NNBMwSJ2XW
+Push your project to a public repo, and share the link using this Google Form: http://goo.gl/forms/NNBMwSJ2XW
+Please include:
 
+1.  a link to the github repository for the project
+2.  a link to a picture of your kanban board or it's online location (e.g. public trello link)
+3.  a link to the wireframe (image) you drew for your site design
+4.  and a direct link to your user stories (possibly in your project repo).
 
 ### Need more to do?
 1. Check out [this excellent talk](https://vimeo.com/105955605) in which Mary Rose Cook live codes Space Invaders from scratch in 30 minutes. She's using HTML Canvas, which is a HTML5 element that is cool. Don't worry about understanding it all, just watch in awe and appreciation, and follow along as best you can. 
