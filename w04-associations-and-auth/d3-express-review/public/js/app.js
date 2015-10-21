@@ -12,6 +12,10 @@ $(document).ready(function() {
         // url, data, callback
         $.post('/api/pizzas', formData, function(data) {
           console.log("inside the post callback, data is: ", data)
+          var pizza = "<p><a href='/pizzas/" + data._id + "'>"
+                        + data.size + " " + data.crust + "</a></p>"
+          console.log(pizza);
+          $('#pizzas').append(pizza);
         })
 
     })
@@ -22,7 +26,10 @@ $(document).ready(function() {
       var commentData = $(this).serialize();
       var url = "/api/pizzas/" + $(this).data().id + "/comments"
       $.post(url, commentData, function(data) {
-        $('#comments').prepend(data.details);
+        // make HTML string to append to page
+        var newComment = "<p>" + data.details + "</p>";
+// append the HTML string to the element with an id of 'comment-list' in the DOM
+        $('#comment-list').append(newComment);
       })
     })
 

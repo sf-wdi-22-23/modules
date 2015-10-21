@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<% include ./_head %>
+  <!-- include head partial from ./views/_head.ejs -->
+  <!-- this has all of our style and client-side script tags -->
+  <% include ./_head %>
 <body>
 
   <div id="page-wrapper" class="container">
@@ -8,15 +10,17 @@
       <h1>General Pizza Assembly</h1>
     </header>
 
-    <!-- include form partial -->
+    <!-- include form partial from ./views/_create.ejs -->
     <% include ./_create %>
-
-    <h3>Your Pizzas</h3>
-    <% pizzas.forEach(function(pizza) { %>
-    <% }); %>
+    <div id="pizzas">
+      <h3>Your Pizzas</h3>
+      <!--  display all the pizzas from the database-->
+      <% pizzas.forEach(function(pizza) { %>
+        <!-- interpolate the id into the link to take user to pizza show page -->
+        <p><a href="/pizzas/<%= pizza._id %>"><%= pizza.size %> <%= pizza.crust %></a></p>
+      <% }); %>
+    </div>
 
   </div>
 </body>
 </html>
-
-

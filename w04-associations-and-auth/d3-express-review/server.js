@@ -14,7 +14,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 
 app.get('/', function(req, res) {
-  res.render("index");
+  db.Pizza.find({}, function(err, pizzas) {
+    if (err) { res.json(err) }
+    console.log("pizzas to load for index: ", pizzas);
+    res.render("index", {pizzas: pizzas});
+  })
 });
 
 // update a pizza
@@ -44,6 +48,7 @@ app.get('/pizzas/:_id', function(req, res) {
     if (err) {
       res.json(err);
     } else {
+// render show page, passing the found pizza as a local variable for the EJS template
       res.render('show', {pizza: pizza});
     }
   })
@@ -69,6 +74,5 @@ app.post('/api/pizzas/:_id/comments', function(req, res) {
 })
 
 app.listen(3000, function() {
-  console.log("express-heroku-starter is running on port 3000");
+  console.log("server running on port 3000");
 });
-
