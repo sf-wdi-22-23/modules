@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <!-- include the head tags so we have our JS and CSS scripts -->
+  <% include ./_head %>
+  <h1>Your Pizza</h1>
+  <p>You ordered a <%= pizza.size%> <%= pizza.crust %> pizza with <%= pizza.toppings%> and <%= pizza.cheese%>.</p>
+
+  <div id="comments">
+    <!-- add comments here -->
+  </div>
+
+  <!-- this could be another partial, just FYI -->
+  <form id="new-comment" data-id="<%= pizza._id %>">
+    <input type="text" name="details">
+    <input type="submit" value="Add your comment">
+  </form>
+</html>
