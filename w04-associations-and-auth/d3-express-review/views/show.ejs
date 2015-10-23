@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <!-- include the head tags so we have our JS and CSS scripts -->
+  <% include ./_head %>
+  <!-- link back to index -->
+  <h1><a href="/">Pizzas</a></h1>
+  <p>You ordered a <%= pizza.size%> <%= pizza.crust %> pizza with <%= pizza.toppings%> and <%= pizza.cheese%>.</p>
+
+  <div id="comments">
+    <!-- this could be another partial, just FYI -->
+    <form id="new-comment" data-id="<%= pizza._id %>">
+      <input type="text" name="details">
+      <input type="submit" value="Add your comment">
+    </form>
+
+    <h3>This pizza's comments:</h3>
+      <div id="comment-list">
+      <!--  display all the pizzas from the database-->
+      <% pizza.comments.forEach(function(comment) { %>
+        <!-- interpolate the id into the link to take user to pizza show page -->
+        <p><%= comment.details %></p>
+      <% }); %>
+    </div>
+  </div>
+
+</html>
