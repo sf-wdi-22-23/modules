@@ -271,6 +271,8 @@ DELETE FROM products;
 
 **Challenge**: Insert four items into the products table.
 
+![XKCD  | Drop Tables](./drop-tables.png)
+
 ### ALIAS
 
 You can make your queries easier to read using an alias. Aliases in SQL use the keyword `AS`.
