@@ -57,7 +57,7 @@ SQL, Structured Query Language, is a specialized language used to create, manipu
     * `GRANT` access to parts of the table
 
 
-## Creating and Modifying Relational Database Structure
+## Creating and Modifying RBD Structure
 
 ### Database Setup
 
